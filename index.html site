@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Consulta NFC-e</title>
+
+<style>
+
+body{
+font-family:Arial;
+background:#f2f2f2;
+text-align:center;
+padding:20px;
+}
+
+h1{
+color:#333;
+}
+
+.grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:12px;
+max-width:500px;
+margin:auto;
+}
+
+button{
+width:100%;
+padding:16px;
+font-size:16px;
+border:none;
+border-radius:8px;
+background:#2c7be5;
+color:white;
+font-weight:bold;
+}
+
+a{
+text-decoration:none;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>Consultar Cupom Fiscal</h1>
+
+<div class="grid">
+
+<a href="https://www.sefaznet.ac.gov.br/nfce/consulta"><button>Acre</button></a>
+<a href="https://www.sefaz.al.gov.br/nfce/consulta"><button>Alagoas</button></a>
+<a href="https://virtual.sefaz.ap.gov.br"><button>Amapá</button></a>
+<a href="https://www.sefaz.am.gov.br/nfce/consulta"><button>Amazonas</button></a>
+
+<a href="https://nfe.sefaz.ba.gov.br/NFCE"><button>Bahia</button></a>
+<a href="https://nfce.sefaz.ce.gov.br/pages/consultaNota.jsf"><button>Ceará</button></a>
+<a href="https://www.fazenda.df.gov.br/nfce/consulta"><button>Distrito Federal</button></a>
+<a href="https://www.sefaz.es.gov.br/nfce/consulta"><button>Espírito Santo</button></a>
+
+<a href="https://www.sefaz.go.gov.br/nfce/consulta"><button>Goiás</button></a>
+<a href="https://nfce.sefaz.ma.gov.br/portal/consultarnfce.jsp"><button>Maranhão</button></a>
+<a href="https://www.sefaz.mt.gov.br/nfce/consultanfce"><button>Mato Grosso</button></a>
+<a href="https://www.dfe.ms.gov.br/nfce/consulta"><button>Mato Grosso do Sul</button></a>
+
+<a href="https://portalsped.fazenda.mg.gov.br/portalnfce"><button>Minas Gerais</button></a>
+<a href="https://www.sefa.pa.gov.br/nfce/consulta"><button>Pará</button></a>
+<a href="https://www.receita.pb.gov.br/nfce/consulta"><button>Paraíba</button></a>
+<a href="https://www.fazenda.pr.gov.br/nfce/consulta"><button>Paraná</button></a>
+
+<a href="https://nfce.sefaz.pe.gov.br/nfce/consulta"><button>Pernambuco</button></a>
+<a href="https://www.sefaz.pi.gov.br/nfce/consulta"><button>Piauí</button></a>
+<a href="https://www4.fazenda.rj.gov.br/consultaDFe"><button>Rio de Janeiro</button></a>
+<a href="https://www.set.rn.gov.br/nfce/consulta"><button>Rio Grande do Norte</button></a>
+
+<a href="https://www.sefaz.rs.gov.br/nfce/consulta"><button>Rio Grande do Sul</button></a>
+<a href="https://www.nfce.sefin.ro.gov.br/home.jsp"><button>Rondônia</button></a>
+<a href="https://www.sefaz.rr.gov.br/nfce/consulta"><button>Roraima</button></a>
+<a href="https://sat.sef.sc.gov.br/nfce/consulta"><button>Santa Catarina</button></a>
+
+<a href="https://satsp.fazenda.sp.gov.br/COMSAT/Public/ConsultaPublica/ConsultaPublicaCfe.aspx"><button>São Paulo</button></a>
+<a href="https://www.nfce.se.gov.br/nfce/consulta"><button>Sergipe</button></a>
+<a href="https://www.sefaz.to.gov.br/nfce/consulta.jsf"><button>Tocantins</button></a>
+
+</div>
+
+</body>
+</html>
